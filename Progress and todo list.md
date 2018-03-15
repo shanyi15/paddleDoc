@@ -7,6 +7,7 @@
 - [x] [Merged] 建立API 文档标准 https://github.com/PaddlePaddle/Paddle/pull/8927 -ranqiu
 - [ ]  API doc display problem  https://github.com/PaddlePaddle/Paddle/issues/9059 -ranqiu
 - [ ] API文档参数显示错误 https://github.com/PaddlePaddle/Paddle/issues/9055 -shanyi
+
 **2.	文档格式**
 - [ ] Repair doc format problem https://github.com/PaddlePaddle/Paddle/issues/8733 -shanyi
 - [ ] Repair the indent format problem https://github.com/PaddlePaddle/PaddlePaddle.org/issues/435- shanyi @daming-lu
