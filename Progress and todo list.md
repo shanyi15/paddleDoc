@@ -22,8 +22,12 @@
 - [ ] Request Opinion: move paddle.v2.dataset to paddle.dataset https://github.com/PaddlePaddle/Paddle/issues/8902 -shanyi @luotao
 - [ ] Create new structure for fluid documentation https://github.com/PaddlePaddle/Paddle/issues/8587 -shanyi
 - [ ] Record links of all .md files in the fluid directory https://github.com/PaddlePaddle/Paddle/issues/8976 -weixing
+- [ ] Primary screen of fluid doc https://github.com/PaddlePaddle/Paddle/issues/9275 -shanyi @ranqiu
+- [ ] Build basic sphinx doctree for doc/fluid https://github.com/PaddlePaddle/Paddle/pull/9236
 
-**4.	文档预览**
+
+
+**4.	文档构建&预览**
 - [ ] Exception occurred when constructing documentation https://github.com/PaddlePaddle/Paddle/issues/9006 -weixing 
   - [ ] The sphinx version is specified as 1.5.6 in the Dockerfile https://github.com/PaddlePaddle/Paddle/pull/9093 -weixing
 - [x] Fix some outdated contents in Contribute Documentation https://github.com/PaddlePaddle/Paddle/issues/8993 -weixing
@@ -31,8 +35,18 @@
 - [x] API预览工具错误 https://github.com/PaddlePaddle/PaddlePaddle.org/issues/442 -ranqiu
 - [x] API doc display problem https://github.com/PaddlePaddle/Paddle/issues/9059 -ranqiu @cs2be
   - [x] [Merged]Fix issue of Paddle API documentation not updating on website https://github.com/PaddlePaddle/PaddlePaddle.org/pull/443 -cs2be
+- [ ]   https://github.com/PaddlePaddle/Paddle/pull/9233
+  
+**5.	使用文档**
+- [ ] Adjust some contents in write_docs_en.rst for Contribue Documentation https://github.com/PaddlePaddle/Paddle/pull/9147 -weixing
+- [x] Update index_en.rst https://github.com/PaddlePaddle/Paddle/pull/9257 -shanyi
+- [x] Repair deadlink of sequence_tagging_for_ner https://github.com/PaddlePaddle/models/pull/749 -shanyi
+- [x] repair image link in rnn.md https://github.com/PaddlePaddle/Paddle/pull/9272 -shanyi
+- [x] Update index_en.rst https://github.com/PaddlePaddle/Paddle/pull/9241 -shanyi
+- [x] repair image problem of en distributed training https://github.com/PaddlePaddle/Paddle/pull/9235 -shanyi
+- [x] Repair deadlink of fluid doc https://github.com/PaddlePaddle/Paddle/pull/9226 -shanyi
 
-**5.	PaddlePaddle.org**
+**6.	PaddlePaddle.org**
 - [x] move the version selector drop down menu a little bit to the right https://github.com/PaddlePaddle/PaddlePaddle.org/issues/432 
 -shanyi @daming-lu
   - [x] [Merged]Align Versions to Right https://github.com/PaddlePaddle/PaddlePaddle.org/pull/436  -daminglu
