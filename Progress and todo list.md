@@ -50,7 +50,8 @@
 - [x] move the version selector drop down menu a little bit to the right https://github.com/PaddlePaddle/PaddlePaddle.org/issues/432 
 -shanyi @daming-lu
   - [x] [Merged]Align Versions to Right https://github.com/PaddlePaddle/PaddlePaddle.org/pull/436  -daminglu
-- [ ] Formula doesn't show correctly  https://github.com/PaddlePaddle/PaddlePaddle.org/issues/445 -shanyi
+- [x] Formula doesn't show correctly  https://github.com/PaddlePaddle/PaddlePaddle.org/issues/445 -shanyi
+  - [x] Rewrite formula in MathJax so that it can be rendered correctly.https://github.com/PaddlePaddle/book/pull/505 -daminglu
 - [ ] Type paddlepaddle.org or click the top left corner "PaddlePaddle" jump to the [dev] mainpage https://github.com/PaddlePaddle/PaddlePaddle.org/issues/431 -shanyi
 - [ ] API link problem of v 0.11.0/0.10.0/0.9.0 https://github.com/PaddlePaddle/PaddlePaddle.org/issues/428 -shanyi
 - [ ] Delete the left navigation bar in "Mobile" https://github.com/PaddlePaddle/PaddlePaddle.org/issues/388 shanyi
