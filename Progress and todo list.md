@@ -5,7 +5,17 @@ _______
 # Progress and todo list
 ## P1 3-30 update
 
-**1.	API文档**
+**1. Fluid 文档上线官网**
+- [x] Reclassify doc/fluid menu https://github.com/PaddlePaddle/Paddle/issues/9031 -shanyi @ranqiu
+  - [x] [Merged]change the dir of docs https://github.com/PaddlePaddle/Paddle/pull/9104 -ranqiu
+- [x] Record links of all .md files in the fluid directory https://github.com/PaddlePaddle/Paddle/issues/8976 -weixing
+- [x] Primary/Second screen of fluid doc https://github.com/PaddlePaddle/Paddle/issues/9275 -shanyi @ranqiu
+- [x] [Merged]Build basic sphinx doctree for doc/fluid https://github.com/PaddlePaddle/Paddle/pull/9236 -weixing
+- [x] [Merged] Build Sphinx tree for fluid directory https://github.com/PaddlePaddle/Paddle/pull/9403 -weixing
+- [ ] Create new structure for fluid documentation https://github.com/PaddlePaddle/Paddle/issues/8587 -shanyi
+
+
+**2.	API文档优化**
 - [x] [Merged] 建立API 文档标准 https://github.com/PaddlePaddle/Paddle/pull/8927 -ranqiu
 - [ ]  API doc display problem  https://github.com/PaddlePaddle/Paddle/issues/9059 -ranqiu
 - [ ] API文档参数显示错误 https://github.com/PaddlePaddle/Paddle/issues/9055 -shanyi
@@ -13,23 +23,9 @@ _______
   https://github.com/PaddlePaddle/Paddle/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+label%3Apythonapi -ranqiu
 
 
-**2.	文档格式**
-- [ ] Repair doc format problem https://github.com/PaddlePaddle/Paddle/issues/8733 -shanyi
-- [ ] Repair the indent format problem https://github.com/PaddlePaddle/PaddlePaddle.org/issues/435- shanyi @daming-lu
-- [ ] Repair the page anchor location problem https://github.com/PaddlePaddle/PaddlePaddle.org/issues/434 -shanyi @daming-lu
-- [ ] Blank space between paragraph should be narrower https://github.com/PaddlePaddle/PaddlePaddle.org/issues/417 -shanyi
-- [ ] Format problem of documentation https://github.com/PaddlePaddle/Paddle/issues/8274 -shanyi
-
 **3.	文档结构**
-- [x] Reclassify doc/fluid menu https://github.com/PaddlePaddle/Paddle/issues/9031 -shanyi @ranqiu
-  - [x] [Merged]change the dir of docs https://github.com/PaddlePaddle/Paddle/pull/9104 -ranqiu
+
 - [ ] Request Opinion: move paddle.v2.dataset to paddle.dataset https://github.com/PaddlePaddle/Paddle/issues/8902 -shanyi @luotao
-- [ ] Create new structure for fluid documentation https://github.com/PaddlePaddle/Paddle/issues/8587 -shanyi
-- [ ] Record links of all .md files in the fluid directory https://github.com/PaddlePaddle/Paddle/issues/8976 -weixing
-- [ ] Primary screen of fluid doc https://github.com/PaddlePaddle/Paddle/issues/9275 -shanyi @ranqiu
-- [ ] Build basic sphinx doctree for doc/fluid https://github.com/PaddlePaddle/Paddle/pull/9236
-
-
 
 **4.	文档构建&预览**
 - [ ] Exception occurred when constructing documentation https://github.com/PaddlePaddle/Paddle/issues/9006 -weixing 
@@ -39,9 +35,10 @@ _______
 - [x] API预览工具错误 https://github.com/PaddlePaddle/PaddlePaddle.org/issues/442 -ranqiu
 - [x] API doc display problem https://github.com/PaddlePaddle/Paddle/issues/9059 -ranqiu @cs2be
   - [x] [Merged]Fix issue of Paddle API documentation not updating on website https://github.com/PaddlePaddle/PaddlePaddle.org/pull/443 -cs2be
-- [ ]   https://github.com/PaddlePaddle/Paddle/pull/9233
+- [x]  [Merged] 修复build_doc https://github.com/PaddlePaddle/Paddle/pull/9233
+- [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/9532
   
-**5.	使用文档**
+**5.	fluid使用文档修复工作**
 - [ ] Adjust some contents in write_docs_en.rst for Contribue Documentation https://github.com/PaddlePaddle/Paddle/pull/9147 -weixing
 - [x] Update index_en.rst https://github.com/PaddlePaddle/Paddle/pull/9257 -shanyi
 - [x] Repair deadlink of sequence_tagging_for_ner https://github.com/PaddlePaddle/models/pull/749 -shanyi
@@ -61,3 +58,10 @@ _______
 - [ ] Delete the left navigation bar in "Mobile" https://github.com/PaddlePaddle/PaddlePaddle.org/issues/388 shanyi
 - [ ] API documentation left navigation expand to 3rd level links https://github.com/PaddlePaddle/PaddlePaddle.org/issues/384 -shanyi
 - [ ] Change the way of selecting versions https://github.com/PaddlePaddle/PaddlePaddle.org/issues/381
+
+**7.	日常文档修复**
+- [ ] Repair doc format problem https://github.com/PaddlePaddle/Paddle/issues/8733 -shanyi
+- [ ] Repair the indent format problem https://github.com/PaddlePaddle/PaddlePaddle.org/issues/435- shanyi @daming-lu
+- [ ] Repair the page anchor location problem https://github.com/PaddlePaddle/PaddlePaddle.org/issues/434 -shanyi @daming-lu
+- [ ] Blank space between paragraph should be narrower https://github.com/PaddlePaddle/PaddlePaddle.org/issues/417 -shanyi
+- [ ] Format problem of documentation https://github.com/PaddlePaddle/Paddle/issues/8274 -shanyi
