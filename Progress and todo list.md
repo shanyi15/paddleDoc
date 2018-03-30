@@ -3,17 +3,15 @@
 _______
 
 # Progress and todo list
-## P1 3-26 update
+## P1 3-30 update
 
 **1.	API文档**
 - [x] [Merged] 建立API 文档标准 https://github.com/PaddlePaddle/Paddle/pull/8927 -ranqiu
 - [ ]  API doc display problem  https://github.com/PaddlePaddle/Paddle/issues/9059 -ranqiu
 - [ ] API文档参数显示错误 https://github.com/PaddlePaddle/Paddle/issues/9055 -shanyi
-- [ ] API文档优化issue建立 
+- [x] API文档优化issue建立 
   https://github.com/PaddlePaddle/Paddle/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+label%3Apythonapi -ranqiu
-  - [x] op 
-  - [x] nn
-  - [ ] layers下其他api，预计3月30日前完成
+
 
 **2.	文档格式**
 - [ ] Repair doc format problem https://github.com/PaddlePaddle/Paddle/issues/8733 -shanyi
