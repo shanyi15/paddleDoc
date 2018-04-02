@@ -6,26 +6,28 @@ _______
 ## P1 3-30 update
 
 **1. Fluid 文档上线官网**
+- [x] [Merged] Build Sphinx tree for fluid directory https://github.com/PaddlePaddle/Paddle/pull/9403 -weixing
 - [x] Reclassify doc/fluid menu https://github.com/PaddlePaddle/Paddle/issues/9031 -shanyi @ranqiu
   - [x] [Merged]change the dir of docs https://github.com/PaddlePaddle/Paddle/pull/9104 -ranqiu
-- [x] Record links of all .md files in the fluid directory https://github.com/PaddlePaddle/Paddle/issues/8976 -weixing
 - [x] Primary/Second screen of fluid doc https://github.com/PaddlePaddle/Paddle/issues/9275 -shanyi @ranqiu
 - [x] [Merged]Build basic sphinx doctree for doc/fluid https://github.com/PaddlePaddle/Paddle/pull/9236 -weixing
-- [x] [Merged] Build Sphinx tree for fluid directory https://github.com/PaddlePaddle/Paddle/pull/9403 -weixing
+- [x] Record links of all .md files in the fluid directory https://github.com/PaddlePaddle/Paddle/issues/8976 -weixing
 - [ ] Create new structure for fluid documentation https://github.com/PaddlePaddle/Paddle/issues/8587 -shanyi
 
 
 **2.	API文档优化**
+- [x] API文档优化issue建立 
+  https://github.com/PaddlePaddle/Paddle/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+label%3Apythonapi -ranqiu
 - [x] [Merged] 建立API 文档标准 https://github.com/PaddlePaddle/Paddle/pull/8927 -ranqiu
 - [ ]  API doc display problem  https://github.com/PaddlePaddle/Paddle/issues/9059 -ranqiu
 - [ ] API文档参数显示错误 https://github.com/PaddlePaddle/Paddle/issues/9055 -shanyi
-- [x] API文档优化issue建立 
-  https://github.com/PaddlePaddle/Paddle/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+label%3Apythonapi -ranqiu
+
 
 
 **3.	文档结构**
 
 - [ ] Request Opinion: move paddle.v2.dataset to paddle.dataset https://github.com/PaddlePaddle/Paddle/issues/8902 -shanyi @luotao
+- [x] 将fluid的api doc移动到doc/fluid/目录下 https://github.com/PaddlePaddle/Paddle/pull/9532 -weixing
 
 **4.	文档构建&预览**
 - [ ] Exception occurred when constructing documentation https://github.com/PaddlePaddle/Paddle/issues/9006 -weixing 
@@ -35,8 +37,8 @@ _______
 - [x] API预览工具错误 https://github.com/PaddlePaddle/PaddlePaddle.org/issues/442 -ranqiu
 - [x] API doc display problem https://github.com/PaddlePaddle/Paddle/issues/9059 -ranqiu @cs2be
   - [x] [Merged]Fix issue of Paddle API documentation not updating on website https://github.com/PaddlePaddle/PaddlePaddle.org/pull/443 -cs2be
-- [x]  [Merged] 修复build_doc https://github.com/PaddlePaddle/Paddle/pull/9233
-- [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/9532
+- [x]  [Merged] 修复build_doc https://github.com/PaddlePaddle/Paddle/pull/9233 
+- [x]  [Merged] 移动fluid api doc目录，修复构建.sh https://github.com/PaddlePaddle/Paddle/pull/9532 -weixing
   
 **5.	fluid使用文档修复工作**
 - [ ] Adjust some contents in write_docs_en.rst for Contribue Documentation https://github.com/PaddlePaddle/Paddle/pull/9147 -weixing
