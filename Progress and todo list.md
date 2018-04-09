@@ -6,6 +6,14 @@ _______
 ## P1 3-30 update
 
 **1. Fluid 文档上线官网**
+
+Progress: 已上线，在修改deadlink和图片显示问题
+
+- [x] [Merged] Add fluid doc support  https://github.com/PaddlePaddle/PaddlePaddle.org/pull/447 -Thuan
+- [x] [Merged] Fix links error for github images https://github.com/PaddlePaddle/Paddle/pull/9641 -weixing
+- [x] [Merged] Upload fluid image sources to github https://github.com/PaddlePaddle/Paddle/pull/9633 -weixing
+- [x] [Merged] Fix table display errors for `.md` files  https://github.com/PaddlePaddle/Paddle/pull/9603 -weixing
+- [ ] Fix some dead links for fluid documents (cn version) https://github.com/PaddlePaddle/Paddle/pull/9561 -weixing
 - [x] [Merged] Build Sphinx tree for fluid directory https://github.com/PaddlePaddle/Paddle/pull/9403 -weixing
 - [x] Reclassify doc/fluid menu https://github.com/PaddlePaddle/Paddle/issues/9031 -shanyi @ranqiu
   - [x] [Merged]change the dir of docs https://github.com/PaddlePaddle/Paddle/pull/9104 -ranqiu
@@ -13,6 +21,7 @@ _______
 - [x] [Merged]Build basic sphinx doctree for doc/fluid https://github.com/PaddlePaddle/Paddle/pull/9236 -weixing
 - [x] Record links of all .md files in the fluid directory https://github.com/PaddlePaddle/Paddle/issues/8976 -weixing
 - [ ] Create new structure for fluid documentation https://github.com/PaddlePaddle/Paddle/issues/8587 -shanyi
+
 
 
 **2.	API文档优化**
