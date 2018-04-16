@@ -3,17 +3,23 @@
 _______
 
 # Progress and todo list
-## P1 3-30 update
+## P1 4-16 update
 
 **1. Fluid 文档上线官网**
 
-Progress: 已上线，在修改deadlink和图片显示问题
+Progress: 已上线，deadlink和图片、表格问题已修复，目前主要在推的几个小工作：（1）merge翻译稿 （2）新手入门的案例代码，调bug-ing
 
+- [x] [Merged] Update release doc	https://github.com/PaddlePaddle/Paddle/pull/9729 -typhoonzero
+- [ ] add rnn en doc https://github.com/PaddlePaddle/Paddle/pull/9809 -Superjomn 
+- [ ] fix quick start for fluid https://github.com/PaddlePaddle/Paddle/pull/9820 -add rnn en doc 
+
+**之前的工作**
+- [x] [Merged] Add title for kernel_hint_design.md & kernel_selection.md https://github.com/PaddlePaddle/Paddle/pull/9788 -weixing
 - [x] [Merged] Add fluid doc support  https://github.com/PaddlePaddle/PaddlePaddle.org/pull/447 -Thuan
 - [x] [Merged] Fix links error for github images https://github.com/PaddlePaddle/Paddle/pull/9641 -weixing
 - [x] [Merged] Upload fluid image sources to github https://github.com/PaddlePaddle/Paddle/pull/9633 -weixing
 - [x] [Merged] Fix table display errors for `.md` files  https://github.com/PaddlePaddle/Paddle/pull/9603 -weixing
-- [ ] Fix some dead links for fluid documents (cn version) https://github.com/PaddlePaddle/Paddle/pull/9561 -weixing
+- [x] [Merged] Fix some dead links for fluid documents (cn version) https://github.com/PaddlePaddle/Paddle/pull/9561 -weixing
 - [x] [Merged] Build Sphinx tree for fluid directory https://github.com/PaddlePaddle/Paddle/pull/9403 -weixing
 - [x] Reclassify doc/fluid menu https://github.com/PaddlePaddle/Paddle/issues/9031 -shanyi @ranqiu
   - [x] [Merged]change the dir of docs https://github.com/PaddlePaddle/Paddle/pull/9104 -ranqiu
@@ -25,6 +31,9 @@ Progress: 已上线，在修改deadlink和图片显示问题
 
 
 **2.	API文档优化**
+- [ ] Remove `dense_vector` from v2 api documents https://github.com/PaddlePaddle/Paddle/pull/9896 -weixing
+
+
 - [x] API文档优化issue建立 
   https://github.com/PaddlePaddle/Paddle/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+label%3Apythonapi -ranqiu
 - [x] [Merged] 建立API 文档标准 https://github.com/PaddlePaddle/Paddle/pull/8927 -ranqiu
@@ -39,8 +48,9 @@ Progress: 已上线，在修改deadlink和图片显示问题
 - [x] 将fluid的api doc移动到doc/fluid/目录下 https://github.com/PaddlePaddle/Paddle/pull/9532 -weixing
 
 **4.	文档构建&预览**
-- [ ] Exception occurred when constructing documentation https://github.com/PaddlePaddle/Paddle/issues/9006 -weixing 
-  - [ ] The sphinx version is specified as 1.5.6 in the Dockerfile https://github.com/PaddlePaddle/Paddle/pull/9093 -weixing
+- [ ] Regenerate initializer.rst and add MSRAInitializer to initializer.__all__ https://github.com/PaddlePaddle/Paddle/pull/9870 -weixing
+- [x] Exception occurred when constructing documentation https://github.com/PaddlePaddle/Paddle/issues/9006 -weixing 
+  - [x] [Merged] The sphinx version is specified as 1.5.6 in the Dockerfile https://github.com/PaddlePaddle/Paddle/pull/9093 -weixing
 - [x] Fix some outdated contents in Contribute Documentation https://github.com/PaddlePaddle/Paddle/issues/8993 -weixing
   - [x] [Merged]Fixed some outdated contents in Contribute Documentations https://github.com/PaddlePaddle/Paddle/pull/9016 -weixing
 - [x] API预览工具错误 https://github.com/PaddlePaddle/PaddlePaddle.org/issues/442 -ranqiu
