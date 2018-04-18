@@ -3,15 +3,18 @@
 _______
 
 # Progress and todo list
-## P1 4-16 update
+## P1 4-18 update
 
 **1. Fluid 文档上线官网**
 
-Progress: 已上线，deadlink和图片、表格问题已修复，目前主要在推的几个小工作：（1）merge翻译稿 （2）新手入门的案例代码，调bug-ing
+Progress: 已上线，deadlink和图片、表格问题已修复，目前主要在推的几个小工作：（1）merge翻译稿（2）新手入门的案例代码，dataset确定方案
 
+- [x] [Merged] Add sphinx documentation for Mobile https://github.com/PaddlePaddle/Paddle/pull/9963 -cs2be@jetfuel
+- [x] [Merged] Add in document generator for paddle mobile docs  https://github.com/PaddlePaddle/PaddlePaddle.org/pull/465 -cs2be@jetfuel
+- [x] [Merged] Travis build is failing for to deploy documentation https://github.com/PaddlePaddle/Mobile/pull/89 -cs2be@jetfuel
 - [x] [Merged] Update release doc	https://github.com/PaddlePaddle/Paddle/pull/9729 -typhoonzero
 - [ ] add rnn en doc https://github.com/PaddlePaddle/Paddle/pull/9809 -Superjomn 
-- [ ] fix quick start for fluid https://github.com/PaddlePaddle/Paddle/pull/9820 -add rnn en doc 
+- [ ] fix quick start for fluid https://github.com/PaddlePaddle/Paddle/pull/9820 -seiriosPlus  
 
 **Former work**
 
@@ -25,6 +28,7 @@ Progress: 已上线，deadlink和图片、表格问题已修复，目前主要�
 - [ ] Create new structure for fluid documentation https://github.com/PaddlePaddle/Paddle/issues/8587 -shanyi
 
 **2.	fluid使用文档优化**
+- [x] Add 4 docs to fluid/dev https://github.com/PaddlePaddle/Paddle/pull/10024 -weixing
 - [x] Request Opinion: move paddle.v2.dataset to paddle.dataset https://github.com/PaddlePaddle/Paddle/issues/8902 -shanyi @luotao
   - [x] 将fluid的api doc移动到doc/fluid/目录下 https://github.com/PaddlePaddle/Paddle/pull/9532 -weixing
 - [x] Add title for kernel_hint_design.md & kernel_selection.md https://github.com/PaddlePaddle/Paddle/pull/9788 -weixing
@@ -43,7 +47,7 @@ Progress: 已上线，deadlink和图片、表格问题已修复，目前主要�
 
 
 **3.	API文档优化**
-- [ ] Remove `dense_vector` from v2 api documents https://github.com/PaddlePaddle/Paddle/pull/9896 -weixing
+- [x] Remove `dense_vector` from v2 api documents https://github.com/PaddlePaddle/Paddle/pull/9896 -weixing
 - [x] API文档优化issue建立 
   https://github.com/PaddlePaddle/Paddle/issues?q=is%3Aissue+is%3Aopen+label%3Adocumentation+label%3Apythonapi -ranqiu
 - [x] [Merged] 建立API 文档标准 https://github.com/PaddlePaddle/Paddle/pull/8927 -ranqiu
