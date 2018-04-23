@@ -7,14 +7,17 @@ _______
 
 **1. Fluid 文档上线官网**
 
-Progress: 已上线，deadlink和图片、表格问题已修复，目前主要在推的几个小工作：（1）merge翻译稿（2）新手入门的案例代码，dataset确定方案
+Progress: 已上线，图片、表格问题已修复，目前主要在推的几个小工作：（1）merge fluid文档翻译稿（2）quick start for fluid
 
+- [x] [Merged] Fix some errors in fluid api docs https://github.com/PaddlePaddle/Paddle/pull/10051 
+- [x] [Merged] Fix deadlinks in fluid documentation https://github.com/PaddlePaddle/Paddle/pull/10097
 - [x] [Merged] Add sphinx documentation for Mobile https://github.com/PaddlePaddle/Paddle/pull/9963 -cs2be@jetfuel
 - [x] [Merged] Add in document generator for paddle mobile docs  https://github.com/PaddlePaddle/PaddlePaddle.org/pull/465 -cs2be@jetfuel
-- [x] [Merged] Travis build is failing for to deploy documentation https://github.com/PaddlePaddle/Mobile/pull/89 -cs2be@jetfuel
-- [x] [Merged] Update release doc	https://github.com/PaddlePaddle/Paddle/pull/9729 -typhoonzero
 - [ ] add rnn en doc https://github.com/PaddlePaddle/Paddle/pull/9809 -Superjomn 
 - [ ] fix quick start for fluid https://github.com/PaddlePaddle/Paddle/pull/9820 -seiriosPlus  
+- [x] [Merged] Travis build is failing for to deploy documentation https://github.com/PaddlePaddle/Mobile/pull/89 -cs2be@jetfuel
+- [x] [Merged] Update release doc	https://github.com/PaddlePaddle/Paddle/pull/9729 -typhoonzero
+
 
 **Former work**
 
