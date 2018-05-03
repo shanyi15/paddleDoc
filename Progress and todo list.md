@@ -3,12 +3,18 @@
 _______
 
 # Progress and todo list
-## P1 4-25 update
+## P1 5-3 update
 
 **1. Fluid 文档上线官网**
 
-Progress: 已上线，图片、表格问题已修复，目前主要在推的几个小工作：（1）merge fluid文档翻译稿（2）quick start for fluid
+Progress: 已上线，在修复deadlink
 
+- [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10226 -Wei Xing
+- [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10222 -Wei Xing
+- [x] [Merged] http://wiki.baidu.com/pages/viewpage.action?pageId=327596892- Shan Yi（Done）
+- [x] [Merged] https://github.com/PaddlePaddle/book/pull/515 -Lu Daming（Done）
+- [ ] https://github.com/PaddlePaddle/Paddle/pull/10359 -Shan Yi（Doing）
+- [ ] https://github.com/PaddlePaddle/Paddle/pull/10361 -Shan Yi (Doing)
 - [x] [Merged] Update v2/dev/index_en.rst https://github.com/PaddlePaddle/Paddle/pull/10171 -shanyi
 - [x] [Merged] Add dataset for fluid api documentation https://github.com/PaddlePaddle/Paddle/pull/10172 -weixing
 - [x] [Merged] add rnn en doc https://github.com/PaddlePaddle/Paddle/pull/9809 -Superjomn 
