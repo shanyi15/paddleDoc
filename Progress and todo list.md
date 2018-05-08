@@ -3,13 +3,16 @@
 _______
 
 # Progress and todo list
-## P1 5-3 update
+## P1 5-8 update
 
 **1. Fluid 文档上线官网**
 
 Progress: 已上线，在修复deadlink
 
-- [ ] fix deadlink in book https://github.com/PaddlePaddle/book/pull/519 -shanyi
+- [x] Fix some image deadlinks in fluid documentation https://github.com/PaddlePaddle/Paddle/pull/10483 -weixing
+- [x] [Merged] fix deadlink in book https://github.com/PaddlePaddle/book/pull/520
+- [x] [Merged] fix toctree in multi_cluster/index_en.rst https://github.com/PaddlePaddle/Paddle/pull/10361
+      [Merged] https://github.com/PaddlePaddle/book/pull/519 -shanyi
 - [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10226 -Wei Xing
 - [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10222 -Wei Xing
 - [x] [Merged] http://wiki.baidu.com/pages/viewpage.action?pageId=327596892- Shan Yi（Done）
@@ -68,6 +71,7 @@ Progress: 已上线，在修复deadlink
 - [ ] API文档参数显示错误 https://github.com/PaddlePaddle/Paddle/issues/9055 -shanyi
 
 **4.	文档翻译**
+
 目的：翻译中/英文版使用文档，方便中/英文用户阅读
 进展：v2+models文档翻译认领已启动，目前正在翻译中（v2有4篇没人认领，认领的已全部上交初稿，models全部认领，预计4月20日前完成），预计4月30日前翻译初稿完成。
 V2 文档（认领： 20/24 完成：20/24）
