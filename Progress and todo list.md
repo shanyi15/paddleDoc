@@ -30,7 +30,6 @@ Progress: 已上线，在修复deadlink
 - [x] [Merged] Fix deadlinks in fluid documentation https://github.com/PaddlePaddle/Paddle/pull/10097 -weixing
 - [x] [Merged] Add sphinx documentation for Mobile https://github.com/PaddlePaddle/Paddle/pull/9963 -cs2be@jetfuel
 - [x] [Merged] Add in document generator for paddle mobile docs  https://github.com/PaddlePaddle/PaddlePaddle.org/pull/465 -cs2be@jetfuel
-
 - [x] [Merged] Travis build is failing for to deploy documentation https://github.com/PaddlePaddle/Mobile/pull/89 -cs2be@jetfuel
 - [x] [Merged] Update release doc	https://github.com/PaddlePaddle/Paddle/pull/9729 -typhoonzero
 
