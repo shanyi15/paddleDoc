@@ -75,11 +75,17 @@ Progress: 已上线，在修复deadlink
 **4.	文档翻译**
 
 目的：翻译中/英文版使用文档，方便中/英文用户阅读
+
 进展：v2+models文档翻译认领已启动，目前正在翻译中（v2有4篇没人认领，认领的已全部上交初稿，models全部认领，预计4月20日前完成），预计4月30日前翻译初稿完成。
+
 V2 文档（认领： 20/24 完成：20/24）
+
 https://shimo.im/sheet/PqK407VYm80Ju3dw
+
 模型库 （认领：16/16  完成：13/16）
+
 https://shimo.im/sheet/6XTZnRQEUS0uC1Ut 
+
 
 **5.	文档构建&预览**
 - [ ] Regenerate initializer.rst and add MSRAInitializer to initializer.__all__ https://github.com/PaddlePaddle/Paddle/pull/9870 -weixing
