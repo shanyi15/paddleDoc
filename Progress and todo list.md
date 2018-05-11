@@ -9,19 +9,19 @@ _______
 
 Progress: 已上线，在修复deadlink
 
-- [x] [Merged] fix dead link of mkldnn and others https://github.com/PaddlePaddle/Paddle/pull/10567 -luotao(Done)
-- [x] [Merged] Fix two deadlinks in paddle/README.md https://github.com/PaddlePaddle/Paddle/pull/10594 -weixing(Done)
-- [x] [Merged] Add classification_cost to v2 documentation https://github.com/PaddlePaddle/Paddle/pull/10478 -Wei Xing(Done)
-- [x] [Merged] V2 deadlinks https://github.com/PaddlePaddle/Paddle/pull/10518  -Wei Xing(Done)
-- [x] [Merged] Fix some image deadlinks in fluid documentation https://github.com/PaddlePaddle/Paddle/pull/10483 -weixing(Done)
-- [x] [Merged] fix deadlink in book https://github.com/PaddlePaddle/book/pull/520 -shanyi(Done)
-- [x] [Merged] fix toctree in multi_cluster/index_en.rst https://github.com/PaddlePaddle/Paddle/pull/10361 -shanyi(Done)
+- [x] [Merged] fix dead link of mkldnn and others https://github.com/PaddlePaddle/Paddle/pull/10567 -luotao
+- [x] [Merged] Fix two deadlinks in paddle/README.md https://github.com/PaddlePaddle/Paddle/pull/10594 -weixing
+- [x] [Merged] Add classification_cost to v2 documentation https://github.com/PaddlePaddle/Paddle/pull/10478 -Wei Xing
+- [x] [Merged] V2 deadlinks https://github.com/PaddlePaddle/Paddle/pull/10518  -Wei Xing
+- [x] [Merged] Fix some image deadlinks in fluid documentation https://github.com/PaddlePaddle/Paddle/pull/10483 -weixing
+- [x] [Merged] fix deadlink in book https://github.com/PaddlePaddle/book/pull/520 -shanyi
+- [x] [Merged] fix toctree in multi_cluster/index_en.rst https://github.com/PaddlePaddle/Paddle/pull/10361 -shanyi
 - [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10226 -Wei Xing
 - [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10222 -Wei Xing
-- [x] [Merged] http://wiki.baidu.com/pages/viewpage.action?pageId=327596892- Shan Yi（Done）
-- [x] [Merged] https://github.com/PaddlePaddle/book/pull/515 -Lu Daming（Done）
-- [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10359 -Shan Yi（Doing）
-- [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10361 -Shan Yi (Doing)
+- [x] [Merged] http://wiki.baidu.com/pages/viewpage.action?pageId=327596892- Shan Yi
+- [x] [Merged] https://github.com/PaddlePaddle/book/pull/515 -Lu Daming
+- [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10359 -Shan Yi
+- [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10361 -Shan Yi
 - [x] [Merged] Update v2/dev/index_en.rst https://github.com/PaddlePaddle/Paddle/pull/10171 -shanyi
 - [x] [Merged] Add dataset for fluid api documentation https://github.com/PaddlePaddle/Paddle/pull/10172 -weixing
 - [x] [Merged] add rnn en doc https://github.com/PaddlePaddle/Paddle/pull/9809 -Superjomn 
