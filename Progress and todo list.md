@@ -9,13 +9,13 @@ _______
 
 Progress: 已上线，在修复deadlink
 
-- [x] https://github.com/PaddlePaddle/Paddle/pull/10594 -weixing(Done)
-- [x] https://github.com/PaddlePaddle/Paddle/pull/10478 -Wei Xing(Done)
-- [x] https://github.com/PaddlePaddle/Paddle/pull/10518  -Wei Xing(Done)
-- [x] Fix some image deadlinks in fluid documentation https://github.com/PaddlePaddle/Paddle/pull/10483 -weixing
-- [x] [Merged] fix deadlink in book https://github.com/PaddlePaddle/book/pull/520
-- [x] [Merged] fix toctree in multi_cluster/index_en.rst https://github.com/PaddlePaddle/Paddle/pull/10361
-      [Merged] https://github.com/PaddlePaddle/book/pull/519 -shanyi
+- [x] [Merged] fix dead link of mkldnn and others https://github.com/PaddlePaddle/Paddle/pull/10567 -luotao(Done)
+- [x] [Merged] Fix two deadlinks in paddle/README.md https://github.com/PaddlePaddle/Paddle/pull/10594 -weixing(Done)
+- [x] [Merged] Add classification_cost to v2 documentation https://github.com/PaddlePaddle/Paddle/pull/10478 -Wei Xing(Done)
+- [x] [Merged] V2 deadlinks https://github.com/PaddlePaddle/Paddle/pull/10518  -Wei Xing(Done)
+- [x] [Merged] Fix some image deadlinks in fluid documentation https://github.com/PaddlePaddle/Paddle/pull/10483 -weixing(Done)
+- [x] [Merged] fix deadlink in book https://github.com/PaddlePaddle/book/pull/520 -shanyi(Done)
+- [x] [Merged] fix toctree in multi_cluster/index_en.rst https://github.com/PaddlePaddle/Paddle/pull/10361 -shanyi(Done)
 - [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10226 -Wei Xing
 - [x] [Merged] https://github.com/PaddlePaddle/Paddle/pull/10222 -Wei Xing
 - [x] [Merged] http://wiki.baidu.com/pages/viewpage.action?pageId=327596892- Shan Yi（Done）
