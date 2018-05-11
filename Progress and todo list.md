@@ -3,12 +3,15 @@
 _______
 
 # Progress and todo list
-## P1 5-8 update
+## P1 5-11 update
 
 **1. Fluid 文档上线官网**
 
 Progress: 已上线，在修复deadlink
 
+- [x] https://github.com/PaddlePaddle/Paddle/pull/10594 -weixing(Done)
+- [x] https://github.com/PaddlePaddle/Paddle/pull/10478 -Wei Xing(Done)
+- [x] https://github.com/PaddlePaddle/Paddle/pull/10518  -Wei Xing(Done)
 - [x] Fix some image deadlinks in fluid documentation https://github.com/PaddlePaddle/Paddle/pull/10483 -weixing
 - [x] [Merged] fix deadlink in book https://github.com/PaddlePaddle/book/pull/520
 - [x] [Merged] fix toctree in multi_cluster/index_en.rst https://github.com/PaddlePaddle/Paddle/pull/10361
