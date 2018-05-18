@@ -12,11 +12,17 @@ Progress: fluid新增API文档已上线官网，正在沟通fluid新版网站UI�
 2018.05.11-2018.05.18
 
 Update *.whl links to latest version
+
 https://github.com/PaddlePaddle/Paddle/pull/10712 -Wei Xing(Doing)
+
 Add fluid API doc to paddlepaddle.org 
+
 https://github.com/PaddlePaddle/Paddle/pull/10637 -Wei Xing(Done)
+
 Fix dead link and typo
+
 https://github.com/PaddlePaddle/Paddle/pull/10567 -Luo Tao(Done)
+
 https://github.com/PaddlePaddle/models/pull/913 -Shan Yi(Done)
 
 ** History **
