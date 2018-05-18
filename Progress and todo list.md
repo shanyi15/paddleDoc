@@ -8,7 +8,9 @@ _______
 **1. Fluid 文档上线官网**
 
 Progress: fluid新增API文档已上线官网，正在沟通fluid新版网站UI设计方案，预计5月25日前确定。
+
 2018.05.11-2018.05.18
+
 Update *.whl links to latest version
 https://github.com/PaddlePaddle/Paddle/pull/10712 -Wei Xing(Doing)
 Add fluid API doc to paddlepaddle.org 
@@ -16,6 +18,7 @@ https://github.com/PaddlePaddle/Paddle/pull/10637 -Wei Xing(Done)
 Fix dead link and typo
 https://github.com/PaddlePaddle/Paddle/pull/10567 -Luo Tao(Done)
 https://github.com/PaddlePaddle/models/pull/913 -Shan Yi(Done)
+
 ** History **
 - [x] [Merged] fix dead link of mkldnn and others https://github.com/PaddlePaddle/Paddle/pull/10567 -luotao
 - [x] [Merged] Fix two deadlinks in paddle/README.md https://github.com/PaddlePaddle/Paddle/pull/10594 -weixing
