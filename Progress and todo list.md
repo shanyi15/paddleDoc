@@ -3,11 +3,35 @@
 _______
 
 # Progress and todo list
-## P1 5-18 update
+## P1 5-24 update
 
 **1. Fluid 文档上线官网**
 
 Progress: fluid新增API文档已上线官网，正在沟通fluid新版网站UI设计方案，预计5月25日前确定。
+
+2018.5.18-2018.5.24
+
+[merged]Add pip install description
+https://github.com/PaddlePaddle/Paddle/pull/10806
+
+[merged]polish and add Inference doc for fluid
+https://github.com/PaddlePaddle/Paddle/pull/10858
+
+[doing]Add new fluid api documents
+https://github.com/PaddlePaddle/Paddle/pull/10637
+
+[merged]Add api docs for RMSProp and modelAverage
+https://github.com/PaddlePaddle/Paddle/pull/10854
+
+Upload developer's_guide_for_fluid_cn.md 
+https://github.com/PaddlePaddle/Paddle/pull/10899
+
+fix typo in workflow_of_capi.md 
+https://github.com/PaddlePaddle/Paddle/pull/10884
+
+add title for cpu_profiling.md 
+https://github.com/PaddlePaddle/Paddle/pull/10791
+
 
 2018.05.11-2018.05.18
 
