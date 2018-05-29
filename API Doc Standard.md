@@ -102,7 +102,7 @@ def fc(input,
         parameters.
 ```
 
-**_Examples_(Optional)**
+**_Examples(Optional, suggested)_**
 ```python
     Examples:
         .. code-block:: python
