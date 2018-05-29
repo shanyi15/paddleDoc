@@ -1,4 +1,4 @@
-**_Please delete parameters of fc, and use your API name&parameters instead._**
+**_Python API definition_**
 
 ```python
 def fc(input,
@@ -13,13 +13,13 @@ def fc(input,
        name=None):
  ```
 
-**_Please delete the following "Fully Connected Layer", and use your API name instead._**
+**_Name_**
 
 ```python
     **Fully Connected Layer**
 ```
 
-**_Please change the content related to "fc", and use your API description instead_**
+**_Function Description_**
 
 ```python
    The fully connected layer takes multiple tensors as input. For each tensor,
@@ -31,15 +31,14 @@ def fc(input,
    the output as well.
 ```
 
-**_If there is any reference( website, article...), please cite them. "fc" doesn't have reference,
-use reference of dynamic_lstm instead._**
+**_Reference(Optional)_**
 
 
    Set use_peepholes to False to disable peephole connection. The formula is
    omitted here, please refer to the paper
    http://www.bioinf.jku.at/publications/older/2604.pdf for details.
 
-**_If there is any formula, please write here._**
+**_Formula(Optional)_**
 
 ```python
     This process can be formulated as follows:
@@ -54,7 +53,7 @@ use reference of dynamic_lstm instead._**
     * :math:`Out`: The output tensor.
 ```
 
-**_Please describe all the args. Please refer to the following format and content._**
+**_Args(optional)_**
 
 ```python
     Args:
@@ -81,18 +80,18 @@ use reference of dynamic_lstm instead._**
         name (str, default None): The name of this layer.
 ```
 
-**_Please describe all the Returns._**
+**_Returns(Optional)_**
 
 ```python
     Returns:
         A tensor variable storing the transformation result.
 ```
-**_Please write Raises here if necessary._**
+**_Raises(Optional)_**
 ```python
     Raises:
         ValueError: If rank of the input tensor is less than 2.
 ```
-**_Please write NOTE( or Warning) here if necessary. "fc" doesn't have NOTE, use NOTE of scaled_dot_product_attention instead._**
+**_NOTE_**
 ```python
     NOTE:
         1. When num_heads > 1, three linear projections are learned respectively
@@ -103,7 +102,7 @@ use reference of dynamic_lstm instead._**
         parameters.
 ```
 
-**_Please write examples here._**
+**_Examples_**
 ```python
     Examples:
         .. code-block:: python
