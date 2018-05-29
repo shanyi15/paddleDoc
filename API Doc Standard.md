@@ -91,7 +91,7 @@ def fc(input,
     Raises:
         ValueError: If rank of the input tensor is less than 2.
 ```
-**_NOTE_(Optional)**
+**_NOTE(Optional)_**
 ```python
     NOTE:
         1. When num_heads > 1, three linear projections are learned respectively
