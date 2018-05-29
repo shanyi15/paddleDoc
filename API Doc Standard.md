@@ -1,5 +1,6 @@
-# Please delete parameters of fc, and use your API name&parameters instead.
+**_Please delete parameters of fc, and use your API name&parameters instead._**
 
+```python
 def fc(input,
        size,
        num_flatten_dims=1,
@@ -10,15 +11,17 @@ def fc(input,
        act=None,
        is_test=False,
        name=None):
+ ```
 
-    """
-# Please delete the following "Fully Connected Layer", and use your API name instead.
+**_Please delete the following "Fully Connected Layer", and use your API name instead._**
 
+```python
     **Fully Connected Layer**
+```
 
-# Please change the content related to "fc", and use your API description instead.
+**_Please change the content related to "fc", and use your API description instead_**
 
-
+```python
    The fully connected layer takes multiple tensors as input. For each tensor,
    the fully connected layer creates "weights", a fully connected weight matrix from
    input units to output units. Then, the layer produces an output tensor by
@@ -26,17 +29,19 @@ def fc(input,
    results. If bias_attr is not "None", a bias variable will be created and added
    to the output. If activation is not "None", the bias variable will be added to
    the output as well.
+```
 
+**_If there is any reference( website, article...), please cite them. "fc" doesn't have reference,
+use reference of dynamic_lstm instead._**
 
-# If there is any reference( website, article...), please cite them. "fc" doesn't have reference,
-# use reference of dynamic_lstm instead.
 
    Set use_peepholes to False to disable peephole connection. The formula is
    omitted here, please refer to the paper
    http://www.bioinf.jku.at/publications/older/2604.pdf for details.
 
-# If there is any formula, please write here.
+**_If there is any formula, please write here._**
 
+```python
     This process can be formulated as follows:
     .. math::
         Out = Act({\sum_{i=0}^{N-1}X_iW_i + b})
@@ -47,9 +52,11 @@ def fc(input,
     * :math:`b`: The bias parameter created by this layer (if needed).
     * :math:`Act`: The activation function.
     * :math:`Out`: The output tensor.
+```
 
-# Please describe all the args. Please refer to the following format and content.
+**_Please describe all the args. Please refer to the following format and content._**
 
+```python
     Args:
         input (Variable|list of Variable): The input tensor(s) of this layer, and the dimension of
             the input tensor(s) is at least 2.
@@ -72,19 +79,21 @@ def fc(input,
         use_mkldnn(bool): Use mkldnn kernel or not, it is valid only when the mkldnn
             library is installed. Default: False
         name (str, default None): The name of this layer.
+```
 
-# Please describe all the Returns.
+**_Please describe all the Returns._**
 
+```python
     Returns:
         A tensor variable storing the transformation result.
-
-# Please write Raises here if necessary.
-
+```
+**_Please write Raises here if necessary._**
+```python
     Raises:
         ValueError: If rank of the input tensor is less than 2.
-
-# Please write NOTE( or Warning) here if necessary. "fc" doesn't have NOTE, use NOTE of scaled_dot_product_attention instead.
-
+```
+**_Please write NOTE( or Warning) here if necessary. "fc" doesn't have NOTE, use NOTE of scaled_dot_product_attention instead._**
+```python
     NOTE:
         1. When num_heads > 1, three linear projections are learned respectively
         to map input queries, keys and values into queries', keys' and values'.
@@ -92,12 +101,12 @@ def fc(input,
         and values.
         1. When num_heads == 1, scaled_dot_product_attention has no learnable
         parameters.
+```
 
-
-# Please write examples here.
-
+**_Please write examples here._**
+```python
     Examples:
         .. code-block:: python
           data = fluid.layers.data(name="data", shape=[32, 32], dtype="float32")
           fc = fluid.layers.fc(input=data, size=1000, act="tanh")
-    """
+···
