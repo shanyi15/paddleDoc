@@ -53,7 +53,7 @@ def fc(input,
     * :math:`Out`: The output tensor.
 ```
 
-**_Args(optional)_**
+**_Args_**
 
 ```python
     Args:
@@ -80,7 +80,7 @@ def fc(input,
         name (str, default None): The name of this layer.
 ```
 
-**_Returns(Optional)_**
+**_Returns_**
 
 ```python
     Returns:
@@ -102,7 +102,7 @@ def fc(input,
         parameters.
 ```
 
-**_Examples(Optional, suggested)_**
+**_Examples_**
 ```python
     Examples:
         .. code-block:: python
