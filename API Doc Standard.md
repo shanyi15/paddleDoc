@@ -33,10 +33,10 @@ def fc(input,
 
 **_Reference(Optional)_**
 
-
-   Set use_peepholes to False to disable peephole connection. The formula is
-   omitted here, please refer to the paper
+```python
+   The formula is omitted here, please refer to the paper
    http://www.bioinf.jku.at/publications/older/2604.pdf for details.
+```
 
 **_Formula(Optional)_**
 
