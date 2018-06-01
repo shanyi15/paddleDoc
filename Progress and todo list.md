@@ -3,11 +3,16 @@
 _______
 
 # Progress and todo list
-## P1 5-24 update
+## P1 6-1 update
 
 **1. Fluid 文档上线官网**
 
-Progress: fluid新增API文档已上线官网，正在沟通fluid新版网站UI设计方案，预计5月25日前确定。
+Progress: 
+
+2018.5.25-2018.6.1
+Add fluid_guide to fluid/get_started, image display error fixed-Wei Xing https://github.com/PaddlePaddle/Paddle/pull/10961 
+Add fluid guide and fix a img links error -Wei Xing https://github.com/PaddlePaddle/Paddle/pull/10979
+fix typo in docker_install_cn.rst-Shan Yi https://github.com/PaddlePaddle/Paddle/pull/10957
 
 2018.5.18-2018.5.24
 
